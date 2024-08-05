@@ -1,0 +1,1361 @@
+.showcase-container-2 {
+    background-image: url(../../images/backgrounds/background-5.png);
+    background-position: -530px -180px;
+    background-repeat: no-repeat;
+    /* Move the background 20 pixels to the left and 10 pixels from the top */
+    background-size: cover;
+    border: 1px solid rgba(95, 95, 95, 0.603);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    /* Ensures it has a set height */
+    min-height: 600px;
+    /* Prevents shrinking below this height */
+    align-items: center;
+    width: 100%;
+    background-color: #0f131d;
+    max-width: 1500px;
+}
+
+.showcase-images-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart-2 {
+    border-radius: 10px;
+    margin: 0 0 0 110px;
+    box-shadow: 0 0 10px rgba(46, 46, 46, 0.288);
+}
+
+.large-chart-2 {
+    width: 700px;
+    height: auto;
+    border: 1px solid rgba(134, 134, 134, 0.534);
+}
+
+.small-chart-2 {
+    width: 350px;
+    height: auto;
+    margin-top: -50px;
+    margin-left: -320px;
+    border: 1px solid rgba(134, 134, 134, 0.534);
+}
+
+.text-area-2 {
+    color: rgb(255, 255, 255);
+    text-align: start;
+    margin-right: 90px;
+    max-width: 500px;
+    margin-top: -60px;
+}
+
+.text-area-2 h1 {
+    font-size: 3em;
+    background: linear-gradient(80deg, #473a2a, #ff00d6, #9200ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.text-area-2 p {
+    font-size: 1.2em;
+    margin: 10px 0 30px;
+}
+
+.start-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1c2131;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 20px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid gray;
+    font-size: 1.1em;
+    transition: transform 0.5s ease-in-out;
+    /* Added transition property here */
+
+}
+
+.start-button:hover {
+    background-color: #1c2131;
+    transform: scale(1.02);
+    box-shadow: 0 0px 16px 3px rgba(60, 117, 155, 0.932);
+
+}
+
+.start-button:active {
+    background-color: #525252c7;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 2000px) {
+
+    nav {
+        padding: 0 42px;
+   
+        align-items: center;
+    }
+
+
+
+    .page-showcase-1 {
+        margin-top: 100px;
+    }
+
+    .box-showcase {
+        width: 950px;
+        background-color: #1C2131;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        height: 500px;
+        border-radius: 20px;
+        border: 2px solid #595959;
+    }
+
+    .showcase-container-2 {
+        background-image: url(../../images/backgrounds/background-5.png);
+        background-position: 330px -260px;
+        background-repeat: no-repeat;
+        /* Move the background 20 pixels to the left and 10 pixels from the top */
+        background-size: cover;
+        border: 1px solid rgba(95, 95, 95, 0.603);
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        height: 70vh;
+        /* This value can be kept if it should be responsive */
+        min-height: 600px;
+        /* Prevents shrinking below this height */
+        align-items: center;
+        width: 100%;
+        background-color: #0f131de3;
+        max-width: 1500px;
+        margin-top: 250px;
+    }
+
+    .showcase-images-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chart-2 {
+        border-radius: 10px;
+        margin: 0 0 0 110px;
+        box-shadow: 0 0 10px rgba(46, 46, 46, 0.288);
+    }
+
+    .large-chart-2 {
+        width: 700px;
+        height: auto;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .small-chart-2 {
+        width: 350px;
+        height: auto;
+        margin-top: -50px;
+        margin-left: -320px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .text-area-2 {
+        color: rgb(255, 255, 255);
+        text-align: start;
+        margin-left: 105px;
+        max-width: 500px;
+        margin-top: -60px;
+    }
+
+    .text-area-2 h1 {
+        font-size: 3em;
+        background: white;
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .text-area-2 .any {
+        background: linear-gradient(450deg, #ff8a00, #c06600);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 .any-1 {
+        background: linear-gradient(45deg, #c06600, #ff00d6, #9200ff);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 p {
+        font-size: 1.2em;
+        margin: 10px 0 30px;
+    }
+
+    .start-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #1c2131;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bolder;
+        margin-top: 20px;
+        width: 150px;
+        text-align: center;
+        border: 1px solid gray;
+        font-size: 1.1em;
+        transition: transform 0.5s ease-in-out;
+        /* Added transition property here */
+
+    }
+
+    .start-button:hover {
+        background-color: #1c2131;
+        transform: scale(1.02);
+        box-shadow: 0 0px 16px 3px rgba(60, 117, 155, 0.932);
+
+    }
+
+    .start-button:active {
+        background-color: #525252c7;
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+
+    .showcase-container-2 {
+        background-image: url(../../images/backgrounds/background-5.png);
+        background-position: 330px -380px;
+        background-repeat: no-repeat;
+        /* Move the background 20 pixels to the left and 10 pixels from the top */
+        background-size: cover;
+        border: 1px solid rgba(95, 95, 95, 0.603);
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        height: 70vh;
+        /* This value can be kept if it should be responsive */
+        min-height: 600px;
+        /* Prevents shrinking below this height */
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        background-color: #0f131de3;
+        max-width: 1250px;
+        margin-top: 220px;
+    }
+
+    .showcase-images-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chart-2 {
+        border-radius: 10px;
+        margin: 0 0 0 -100px;
+        box-shadow: 0 0 10px rgba(46, 46, 46, 0.288);
+    }
+
+    .large-chart-2 {
+        width: 700px;
+        height: auto;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .small-chart-2 {
+        width: 350px;
+        height: auto;
+        margin-top: -50px;
+        margin-left: -380px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .text-area-2 {
+        color: rgb(255, 255, 255);
+        text-align: start;
+        margin-left: 40px;
+        max-width: 600px;
+        margin-top: -60px;
+    }
+
+    .text-area-2 h1 {
+        font-size: 3em;
+
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+        margin-bottom: 30px;
+        width: 480px;
+    }
+
+    .text-area-2 .any {
+        background: linear-gradient(450deg, #ff8a00, #c06600);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 .any-1 {
+        background: linear-gradient(45deg, #c06600, #ff00d6, #9200ff);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 p {
+        font-size: 1.2em;
+        margin: 10px 0 30px;
+        max-width: 400px;
+    }
+
+    .start-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #1c2131;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bolder;
+        margin-top: 20px;
+        width: 150px;
+        text-align: center;
+        border: 1px solid gray;
+        font-size: 1.1em;
+        transition: transform 0.5s ease-in-out;
+        /* Added transition property here */
+
+    }
+
+    .start-button:hover {
+        background-color: #1c2131;
+        transform: scale(1.02);
+        box-shadow: 0 0px 16px 3px rgba(60, 117, 155, 0.932);
+
+    }
+
+    .start-button:active {
+        background-color: #525252c7;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    .nav {
+        padding: 0 42px;
+    }
+
+    .showcase-container-2 {
+        background-image: url(../../images/backgrounds/background-5.png);
+        background-position: 230px -240px;
+        background-repeat: no-repeat;
+        /* Move the background 20 pixels to the left and 10 pixels from the top */
+        background-size: cover;
+        border: 1px solid rgba(95, 95, 95, 0.603);
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        height: 70vh;
+        align-items: center;
+        width: 100%;
+        background-color: #0f131de3;
+        max-width: 1000px;
+    }
+
+    .showcase-images-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chart-2 {
+        border-radius: 10px;
+        
+        margin-left: -100px;
+        box-shadow: 0 0 10px rgba(46, 46, 46, 0.288);
+    }
+
+    .large-chart-2 {
+        width: 640px;
+        height: auto;
+        margin-top: 0px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .small-chart-2 {
+        width: 330px;
+        height: auto;
+        margin-top: -60px;
+        margin-left: -280px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .text-area-2 {
+        color: rgb(255, 255, 255);
+        text-align: start;
+        margin-left: 20px;
+        max-width: 319px;
+        margin-top: -49px;
+    }
+
+    .text-area-2 h1 {
+        font-size: 2.8em;
+
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+        margin-bottom: 30px;
+        max-width: 325px;
+    }
+
+    .text-area-2 .any {
+        background: linear-gradient(450deg, #ff8a00, #c06600);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 .any-1 {
+        background: linear-gradient(45deg, #c06600, #ff00d6, #9200ff);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 p {
+        font-size: 1.2em;
+        margin: 10px 0 30px;
+    }
+
+    .start-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #1c2131;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bolder;
+        margin-top: 20px;
+        width: 150px;
+        text-align: center;
+        border: 1px solid gray;
+        font-size: 1.1em;
+        margin: 10px 0 0 40px;
+        position: absolute;
+        transition: transform 0.5s ease-in-out;
+        /* Added transition property here */
+
+    }
+
+    .start-button:hover {
+        background-color: #1c2131;
+        transform: scale(1.02);
+        box-shadow: 0 0px 16px 3px rgba(60, 117, 155, 0.932);
+
+    }
+
+    .start-button:active {
+        background-color: #525252c7;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .nav {
+        padding: 0 42px;
+    }
+
+
+
+    .showcase-container-2 {
+        background-image: url(../../images/backgrounds/background-5.png);
+        background-position: 200px -230px;
+        background-repeat: no-repeat;
+        /* Move the background 20 pixels to the left and 10 pixels from the top */
+        background-size: cover;
+        border: 1px solid rgba(95, 95, 95, 0.603);
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        height: 70vh;
+        /* This value can be kept if it should be responsive */
+        min-height: 600px;
+        /* Prevents shrinking below this height */
+        align-items: center;
+        width: 100%;
+        background-color: #0f131de3;
+        max-width: 900px;
+    }
+
+    .showcase-images-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chart-2 {
+        border-radius: 10px;
+        margin-left: -110px;
+        box-shadow: 0 0 10px rgba(46, 46, 46, 0.288);
+    }
+
+    .large-chart-2 {
+        width: 580px;
+        height: auto;
+        margin-top: -20px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .small-chart-2 {
+        width: 250px;
+        height: auto;
+        margin-top: -50px;
+        margin-left: -320px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .text-area-2 {
+        color: rgb(255, 255, 255);
+        text-align: start;
+        margin-left: 23px;
+        max-width: 319px;
+        margin-top: -75px;
+    }
+
+    .text-area-2 h1 {
+        font-size: 3em;
+
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+        margin-bottom: 30px;
+        max-width: 300px;
+    }
+
+    .text-area-2 .any {
+        background: linear-gradient(450deg, #ff8a00, #c06600);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 .any-1 {
+        background: linear-gradient(45deg, #c06600, #ff00d6, #9200ff);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 p {
+        font-size: 1.2em;
+        margin: 10px 0 30px;
+    }
+
+    .start-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #1c2131;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bolder;
+        margin-top: 20px;
+        width: 150px;
+        text-align: center;
+        border: 1px solid gray;
+        position: absolute;
+        margin: 10px 0 0 30px;
+        font-size: 1.1em;
+        transition: transform 0.5s ease-in-out;
+        /* Added transition property here */
+
+    }
+
+    .start-button:hover {
+        background-color: #1c2131;
+        transform: scale(1.02);
+        box-shadow: 0 0px 16px 3px rgba(60, 117, 155, 0.932);
+
+    }
+
+    .start-button:active {
+        background-color: #525252c7;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+    .box-showcase {
+        width: 600px;
+        height: 300px;
+    }
+
+    .page-showcase-1 {
+        padding: 10px;
+
+    }
+
+    .showcase-video-png {
+        width: 600px;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    .showcase-container-2 {
+        background-image: url(../../images/backgrounds/background-5.png);
+        background-position: 10px 140px;
+        background-repeat: no-repeat;
+        /* Move the background 20 pixels to the left and 10 pixels from the top */
+        background-size: cover;
+        border: 1px solid rgba(95, 95, 95, 0.603);
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        height: 70vh;
+        /* This value can be kept if it should be responsive */
+        min-height: 600px;
+        /* Prevents shrinking below this height */
+        align-items: center;
+        width: 100%;
+        background-color: #0f131de3;
+        max-width: 572px;
+        margin-top: 150px;
+    }
+
+    .showcase-images-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chart-2 {
+        border-radius: 10px;
+        margin: 0;
+        box-shadow: 0 0 10px rgba(46, 46, 46, 0.288);
+    }
+
+    .large-chart-2 {
+        width: 470px;
+        height: auto;
+        margin-top: 220px;
+        margin-left: -620px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .small-chart-2 {
+        width: 250px;
+        height: auto;
+        margin-top: -50px;
+        margin-left: -270px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .text-area-2 {
+        color: rgb(255, 255, 255);
+        text-align: start;
+ 
+        max-width: 590px;
+        margin-top: -400px;
+    }
+
+    .text-area-2 h1 {
+        font-size: 2.5em;
+
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+        margin-bottom: 30px;
+        max-width: 600px;
+    }
+
+    .text-area-2 .any {
+        background: linear-gradient(450deg, #ff8a00, #c06600);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 .any-1 {
+        background: linear-gradient(45deg, #c06600, #ff00d6, #9200ff);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 p {
+        font-size: 1.2em;
+        margin: 10px 0 30px;
+    }
+
+    .start-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #1c2131;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bolder;
+        margin-left: 0px;
+        margin-top: -20px;
+        width: 150px;
+        text-align: center;
+        border: 1px solid gray;
+
+        font-size: 1.1em;
+        transition: transform 0.5s ease-in-out;
+        /* Added transition property here */
+
+    }
+
+    .start-button:hover {
+        background-color: #1c2131;
+        transform: scale(1.02);
+        box-shadow: 0 0px 16px 3px rgba(60, 117, 155, 0.932);
+
+    }
+
+    .start-button:active {
+        background-color: #525252c7;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .box-showcase {
+        width: 500px;
+        height: 220px;
+    }
+
+    .page-showcase-1 {
+        padding: 10px;
+    }
+
+    .showcase-video-png {
+        width: 500px;
+        height: 220px;
+        border-radius: 20px;
+    }
+
+
+
+    .page-1 .page-1-layout h3 {
+        margin-top: 10px;
+        font-weight: bold;
+        max-width: 900px;
+
+        font-size: 3.5rem;
+        color: rgb(255, 255, 255);
+    }
+
+    .showcase-container-2 {
+        background-image: url(../../images/backgrounds/background-5.png);
+        background-position: 10px 140px;
+        background-repeat: no-repeat;
+        /* Move the background 20 pixels to the left and 10 pixels from the top */
+        background-size: cover;
+
+        border: 1px solid rgba(95, 95, 95, 0.603);
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        height: 70vh;
+        /* This value can be kept if it should be responsive */
+        min-height: 600px;
+        /* Prevents shrinking below this height */
+        align-items: center;
+        width: 100%;
+        background-color: #0f131de3;
+        max-width: 500px;
+    }
+
+    .showcase-images-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chart-2 {
+        border-radius: 10px;
+        margin: 0;
+        box-shadow: 0 0 10px rgba(46, 46, 46, 0.288);
+    }
+
+    .large-chart-2 {
+        width: 400px;
+        height: auto;
+        margin-left: -560px;
+        margin-top: 260px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .small-chart-2 {
+        width: 250px;
+        height: auto;
+        margin-top: -50px;
+        margin-left: -340px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .text-area-2 {
+        color: rgb(255, 255, 255);
+        text-align: start;
+      
+        max-width: 416px;
+        margin-top: -331px;
+    }
+
+    .text-area-2 h1 {
+        font-size: 3em;
+
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+
+    .text-area-2 .any {
+        background: linear-gradient(450deg, #ff8a00, #c06600);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 .any-1 {
+        background: linear-gradient(45deg, #c06600, #ff00d6, #9200ff);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 p {
+        font-size: 1.2em;
+        margin: 10px 0 30px;
+    }
+
+    .start-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #1c2131;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bolder;
+        margin-top: 20px;
+        width: 150px;
+        text-align: center;
+        border: 1px solid gray;
+        position: absolute;
+        margin: -13px 0px 0 0px;
+        font-size: 1.1em;
+        transition: transform 0.5s ease-in-out;
+        /* Added transition property here */
+
+    }
+
+    .start-button:hover {
+        background-color: #1c2131;
+        transform: scale(1.02);
+        box-shadow: 0 0px 16px 3px rgba(60, 117, 155, 0.932);
+
+    }
+
+    .start-button:active {
+        background-color: #525252c7;
+    }
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+   
+    .page-showcase-1 {
+        margin-top: -20px;
+    }
+
+    .box-showcase {
+        width: 370px;
+        height: 180px;
+    }
+
+    .page-showcase-1 {
+        padding: -180px;
+        margin-top: 0px;
+
+    }
+
+    .showcase-video-png {
+        width: 370px;
+        height: 180px;
+        border-radius: 20px;
+    }
+
+    .showcase-container-2 {
+        background-image: url(../../images/backgrounds/background-5.png);
+        background-position: -50px 180px;
+        background-repeat: no-repeat;
+        /* Move the background 20 pixels to the left and 10 pixels from the top */
+        background-size: cover;
+        border: 1px solid rgba(95, 95, 95, 0.603);
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        height: 70vh;
+        /* This value can be kept if it should be responsive */
+        min-height: 600px;
+        /* Prevents shrinking below this height */
+        align-items: center;
+        width: 100%;
+        margin-top: 100px;
+        overflow: hidden;
+        background-color: #0f131de3;
+        max-width: 380px;
+    }
+
+    .showcase-images-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chart-2 {
+        border-radius: 10px;
+        margin-top: 300px;
+        margin-left: -10px;
+        box-shadow: 0 0 10px rgba(46, 46, 46, 0.288);
+    }
+
+    .large-chart-2 {
+        width: 350px;
+        height: auto;
+        margin-left: -660px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .small-chart-2 {
+        width: 200px;
+        height: auto;
+        margin-top: -30px;
+        margin-left: -475px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .text-area-2 {
+        color: rgb(255, 255, 255);
+        text-align: start;
+        margin-left: -1px;
+        max-width: 580px;
+        margin-top: -400px;
+    }
+
+    .text-area-2 h1 {
+        font-size: 2em;
+
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+        margin-bottom: 30px;
+        max-width: 430px;
+    }
+
+    .text-area-2 .any {
+        background: linear-gradient(450deg, #ff8a00, #c06600);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 .any-1 {
+        background: linear-gradient(45deg, #c06600, #ff00d6, #9200ff);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 p {
+        font-size: 1.2em;
+        margin: 10px 0 30px;
+        width: 380px;
+    }
+
+    .start-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #1c2131;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bolder;
+        margin-top: 20px;
+        width: 150px;
+        text-align: center;
+        border: 1px solid gray;
+        font-size: 1.1em;
+        transition: transform 0.5s ease-in-out;
+        /* Added transition property here */
+
+    }
+
+    .start-button:hover {
+        background-color: #1c2131;
+        transform: scale(1.02);
+        box-shadow: 0 0px 16px 3px rgba(60, 117, 155, 0.932);
+
+    }
+
+    .start-button:active {
+        background-color: #525252c7;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+
+
+
+    .page-showcase-1 {
+        margin-top: 10px;
+    }
+
+
+
+    .showcase-container-2 {
+        background-image: url(../../images/backgrounds/background-5.png);
+        background-position: -100px 120px;
+        background-repeat: no-repeat;
+        /* Move the background 20 pixels to the left and 10 pixels from the top */
+        background-size: cover;
+        border: 1px solid rgba(95, 95, 95, 0.603);
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        height: 70vh;
+        /* This value can be kept if it should be responsive */
+        min-height: 600px;
+        /* Prevents shrinking below this height */
+        align-items: center;
+        width: 100%;
+        background-color: #0f131de3;
+        max-width: 330px;
+        margin-top: 100px;
+    }
+
+    .showcase-images-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chart-2 {
+        border-radius: 10px;
+        margin-top: 300px;
+        margin-left: -550px;
+        box-shadow: 0 0 10px rgba(46, 46, 46, 0.288);
+    }
+
+    .large-chart-2 {
+        width: 350px;
+        height: auto;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .small-chart-2 {
+        width: 220px;
+        height: auto;
+        margin-top: -30px;
+        margin-left: -450px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .text-area-2 {
+        color: rgb(255, 255, 255);
+        text-align: start;
+
+        max-width: 580px;
+        margin-top: -420px;
+    }
+
+    .text-area-2 h1 {
+        font-size: 2em;
+
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+        margin-bottom: 30px;
+        max-width: 350px;
+    }
+
+    .text-area-2 .any {
+        background: linear-gradient(450deg, #ff8a00, #c06600);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 .any-1 {
+        background: linear-gradient(45deg, #c06600, #ff00d6, #9200ff);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 p {
+        font-size: 1.2em;
+        margin: 10px 0 30px;
+        width: 350px;
+    }
+
+    .start-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #1c2131;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bolder;
+        margin-top: 20px;
+        width: 150px;
+        text-align: center;
+        border: 1px solid gray;
+        font-size: 1.1em;
+        transition: transform 0.5s ease-in-out;
+        /* Added transition property here */
+
+    }
+
+    .start-button:hover {
+        background-color: #1c2131;
+        transform: scale(1.02);
+        box-shadow: 0 0px 16px 3px rgba(60, 117, 155, 0.932);
+
+    }
+
+    .start-button:active {
+        background-color: #525252c7;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+
+    nav {
+        backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(17, 25, 40, 0.75);
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        opacity: 1;
+        transform: none;
+        display: flex;
+        max-width: fit-content;
+        position: fixed;
+        z-index: 5000;
+        top: 2.5rem;
+        inset-inline: 0;
+        margin-inline: auto;
+        height: 20px;
+        padding: 1.10rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow:
+            0px 2px 3px -1px rgba(0, 0, 0, 0.1),
+            0px 1px 0px 0px rgba(25, 28, 33, 0.02),
+            0px 0px 0px 1px rgba(25, 28, 33, 0.08);
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .page-1 .page-1-layout h3 {
+        font-size: 32px;
+        width: 300px;
+    }
+
+    .page-1 .page-1-layout p {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .page-1 .page-1-layout button {
+        width: 100%;
+    }
+
+    .page-1-layout {
+        margin-top: 50px;
+    }
+
+    .box-showcase {
+        width: 340px;
+        height: 170px;
+    }
+
+    .page-showcase-1 {
+        padding: 10px;
+        margin-top: 50px;
+
+    }
+
+    .showcase-video-png {
+        width: 340px;
+        height: 170px;
+        border-radius: 20px;
+    }
+
+
+
+
+
+    .showcase-container-2 {
+        background-image: url(../../images/backgrounds/background-5.png);
+        background-position: -100px 120px;
+        background-repeat: no-repeat;
+        /* Move the background 20 pixels to the left and 10 pixels from the top */
+        background-size: cover;
+        border: 1px solid rgba(95, 95, 95, 0.603);
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        height: 70vh;
+        /* This value can be kept if it should be responsive */
+        min-height: 600px;
+        /* Prevents shrinking below this height */
+        align-items: center;
+        width: 100%;
+        background-color: #0f131de3;
+        max-width: 290px;
+        margin-top: 100px;
+    }
+
+    .showcase-images-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chart-2 {
+        border-radius: 10px;
+        margin-top: 300px;
+        margin-left: -505px;
+        box-shadow: 0 0 10px rgba(46, 46, 46, 0.288);
+    }
+
+    .large-chart-2 {
+        width: 310px;
+        height: auto;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .small-chart-2 {
+        width: 200px;
+        height: auto;
+        margin-top: -30px;
+        margin-left: -440px;
+        border: 1px solid rgba(134, 134, 134, 0.534);
+    }
+
+    .text-area-2 {
+        color: rgb(255, 255, 255);
+        text-align: start;
+    
+        max-width: 580px;
+        margin-top: -370px;
+    }
+
+    .text-area-2 h1 {
+        font-size: 2em;
+
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+        margin-bottom: 30px;
+        max-width: 310px;
+    }
+
+    .text-area-2 .any {
+        background: linear-gradient(450deg, #ff8a00, #c06600);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 .any-1 {
+        background: linear-gradient(45deg, #c06600, #ff00d6, #9200ff);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 0;
+    }
+
+    .text-area-2 p {
+        font-size: 1.2em;
+        margin: 10px 0 30px;
+        width: 310px;
+    }
+
+    .start-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #1c2131;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bolder;
+        margin-top: 10px;
+        width: 150px;
+        text-align: center;
+        border: 1px solid gray;
+        font-size: 1.1em;
+        transition: transform 0.5s ease-in-out;
+        /* Added transition property here */
+
+    }
+
+    .start-button:hover {
+        background-color: #1c2131;
+        transform: scale(1.02);
+        box-shadow: 0 0px 16px 3px rgba(60, 117, 155, 0.932);
+
+    }
+
+    .start-button:active {
+        background-color: #525252c7;
+    }
+}
